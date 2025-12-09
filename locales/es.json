@@ -1,0 +1,290 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Ir al contenido"
+    },
+    "meta": {
+      "tags": "Etiquetado \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    },
+    "404": {
+      "title": "Página no encontrada",
+      "subtext": "Lo sentimos, la página que buscas no existe."
+    },
+    "pagination": {
+      "label": "Paginación",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "page": "Página {{ number }}"
+    },
+    "search": {
+      "search": "Buscar",
+      "placeholder": "Buscar productos..."
+    },
+    "share": {
+      "share": "Compartir",
+      "success_message": "Enlace copiado al portapapeles"
+    },
+    "currency": {
+      "dropdown_label": "Moneda"
+    },
+    "language": {
+      "dropdown_label": "Idioma"
+    },
+    "continue_shopping": "Continuar comprando",
+    "breadcrumbs": {
+      "home": "Inicio",
+      "back_to": "Volver a {{ title }}"
+    },
+    "checkout": "Finalizar compra"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Agregar al carrito",
+      "sold_out": "Agotado",
+      "unavailable": "No disponible",
+      "on_sale": "Oferta",
+      "quantity": "Cantidad",
+      "price": {
+        "from_price_html": "Desde {{ price }}",
+        "regular_price": "Precio regular",
+        "sale_price": "Precio de oferta"
+      },
+      "vendor": "Marca",
+      "view_details": "Ver detalles",
+      "added_to_cart": "Producto agregado al carrito",
+      "media": {
+        "image_available": "La imagen {{ index }} ya está disponible en la vista de galería"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "name": "Encabezado",
+      "menu": "Menú",
+      "search": "Buscar",
+      "account": "Cuenta",
+      "cart_count": {
+        "one": "{{ count }} artículo",
+        "other": "{{ count }} artículos"
+      }
+    },
+    "cart": {
+      "title": "Tu carrito",
+      "empty": "Tu carrito está vacío",
+      "empty_message": "Agrega productos para comenzar",
+      "continue_shopping": "Continuar comprando",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping": "Impuestos y envío calculados al finalizar la compra",
+      "checkout": "Finalizar compra",
+      "proceed_to_checkout": "Proceder al pago",
+      "remove": "Eliminar",
+      "total": "Total",
+      "cart_error": "Hubo un error al actualizar tu carrito. Por favor, intenta de nuevo.",
+      "cart_quantity_error_html": "Solo puedes agregar [quantity] de este artículo a tu carrito.",
+      "update": "Actualizar",
+      "note": "Instrucciones especiales del pedido"
+    },
+    "featured_collection": {
+      "view_all": "Ver todo",
+      "title": "Productos destacados",
+      "description": "Selección premium de nuestros mejores productos"
+    },
+    "slideshow": {
+      "pause_slideshow": "Pausar presentación",
+      "play_slideshow": "Reproducir presentación"
+    },
+    "hero": {
+      "discover": "Descubre el",
+      "future": "futuro",
+      "of_style": "del estilo",
+      "description": "Tecnología premium, diseño excepcional. Encuentra los productos más innovadores en un solo lugar.",
+      "explore_products": "Explorar productos",
+      "view_collections": "Ver colecciones"
+    },
+    "categories": {
+      "title": "Explora nuestras colecciones",
+      "description": "Encuentra exactamente lo que buscas",
+      "technology": "Tecnología",
+      "technology_desc": "Los gadgets más innovadores",
+      "fashion": "Moda",
+      "fashion_desc": "Estilo y elegancia premium",
+      "accessories": "Accesorios",
+      "accessories_desc": "El toque final perfecto"
+    },
+    "footer": {
+      "description": "Tu destino premium para tecnología, moda y accesorios de alta calidad. Diseño excepcional al alcance de todos.",
+      "shop": "Comprar",
+      "help": "Ayuda",
+      "technology": "Tecnología",
+      "fashion": "Moda",
+      "accessories": "Accesorios",
+      "new_products": "Nuevos productos",
+      "help_center": "Centro de ayuda",
+      "shipping": "Envíos y entregas",
+      "returns": "Devoluciones",
+      "contact": "Contacto",
+      "all_rights_reserved": "Todos los derechos reservados"
+    },
+    "product_page": {
+      "features_title": "Características destacadas",
+      "free_shipping": "Envío gratis en pedidos superiores a $500",
+      "premium_quality": "Garantía de calidad premium",
+      "free_returns": "Devoluciones gratis en 30 días",
+      "support_247": "Soporte al cliente 24/7",
+      "variant": "Variante",
+      "quantity": "Cantidad"
+    },
+    "collection_template": {
+      "title": "Colección",
+      "empty": "No se encontraron productos",
+      "use_fewer_filters": "Usa menos filtros o elimínalos todos",
+      "products_count": {
+        "one": "{{ count }} producto",
+        "other": "{{ count }} productos"
+      }
+    },
+    "main_collection_banner": {
+      "name": "Banner de Colección",
+      "settings": {
+        "show_collection_description": {
+          "label": "Mostrar descripción de colección"
+        },
+        "show_collection_image": {
+          "label": "Mostrar imagen de colección"
+        },
+        "color_scheme": {
+          "label": "Esquema de color",
+          "options__1": {
+            "label": "Acento 1"
+          },
+          "options__2": {
+            "label": "Acento 2"
+          },
+          "options__3": {
+            "label": "Fondo 1"
+          },
+          "options__4": {
+            "label": "Fondo 2"
+          }
+        }
+      }
+    },
+    "main_collection_product_grid": {
+      "name": "Cuadrícula de Productos",
+      "settings": {
+        "products_per_page": {
+          "label": "Productos por página"
+        },
+        "columns_desktop": {
+          "label": "Número de columnas en escritorio"
+        },
+        "image_ratio": {
+          "label": "Proporción de imagen",
+          "options__1": {
+            "label": "Adaptar a imagen"
+          },
+          "options__2": {
+            "label": "Vertical"
+          },
+          "options__3": {
+            "label": "Cuadrada"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Mostrar segunda imagen al pasar el cursor"
+        },
+        "show_vendor": {
+          "label": "Mostrar marca"
+        },
+        "show_rating": {
+          "label": "Mostrar calificación de producto"
+        },
+        "enable_filtering": {
+          "label": "Habilitar filtrado"
+        },
+        "enable_sorting": {
+          "label": "Habilitar ordenamiento"
+        },
+        "columns_mobile": {
+          "label": "Número de columnas en móvil",
+          "options__1": {
+            "label": "1 columna"
+          },
+          "options__2": {
+            "label": "2 columnas"
+          }
+        }
+      }
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "Carrito"
+    },
+    "collection": {
+      "products": "Productos",
+      "empty": "No se encontraron productos",
+      "use_fewer_filters": "Usa menos filtros o elimínalos todos",
+      "product_count": {
+        "one": "{{ count }} producto",
+        "other": "{{ count }} productos"
+      }
+    }
+  },
+  "collections": {
+    "sorting": {
+      "title": "Ordenar por",
+      "featured": "Destacados",
+      "best_selling": "Más vendidos",
+      "az": "Alfabéticamente, A-Z",
+      "za": "Alfabéticamente, Z-A",
+      "price_ascending": "Precio, menor a mayor",
+      "price_descending": "Precio, mayor a menor",
+      "date_ascending": "Fecha, más antiguo a más reciente",
+      "date_descending": "Fecha, más reciente a más antiguo"
+    },
+    "filtering": {
+      "title": "Filtrar",
+      "clear_all": "Limpiar todo"
+    }
+  },
+  "accessibility": {
+    "refresh_page": "Al seleccionar una opción se actualiza toda la página.",
+    "link_messages": {
+      "new_window": "Se abre en una nueva ventana."
+    },
+    "close": "Cerrar",
+    "loading": "Cargando",
+    "error": "Error",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "view_product": "Ver {{ product_title }}",
+    "vendor": "Marca"
+  },
+  "localization": {
+    "country_label": "País/región",
+    "update_country": "Actualizar país/región",
+    "language_label": "Idioma",
+    "update_language": "Actualizar idioma"
+  },
+  "customer": {
+    "account": {
+      "title": "Mi Cuenta",
+      "sign_out": "Cerrar sesión"
+    },
+    "login": {
+      "title": "Iniciar sesión",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "sign_in": "Iniciar sesión",
+      "guest_title": "Continuar como invitado",
+      "guest_continue": "Continuar"
+    },
+    "order": {
+      "title": "Pedido {{ name }}",
+      "date": "Realizado el {{ date }}"
+    }
+  }
+}

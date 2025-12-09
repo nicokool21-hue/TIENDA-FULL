@@ -1,0 +1,290 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Skip to content"
+    },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "Page not found",
+      "subtext": "Sorry, the page you are looking for does not exist."
+    },
+    "pagination": {
+      "label": "Pagination",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {{ number }}"
+    },
+    "search": {
+      "search": "Search",
+      "placeholder": "Search products..."
+    },
+    "share": {
+      "share": "Share",
+      "success_message": "Link copied to clipboard"
+    },
+    "currency": {
+      "dropdown_label": "Currency"
+    },
+    "language": {
+      "dropdown_label": "Language"
+    },
+    "continue_shopping": "Continue shopping",
+    "breadcrumbs": {
+      "home": "Home",
+      "back_to": "Back to {{ title }}"
+    },
+    "checkout": "Checkout"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to cart",
+      "sold_out": "Sold out",
+      "unavailable": "Unavailable",
+      "on_sale": "Sale",
+      "quantity": "Quantity",
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price"
+      },
+      "vendor": "Vendor",
+      "view_details": "View details",
+      "added_to_cart": "Product added to cart",
+      "media": {
+        "image_available": "Image {{ index }} is now available in gallery view"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "name": "Header",
+      "menu": "Menu",
+      "search": "Search",
+      "account": "Account",
+      "cart_count": {
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      }
+    },
+    "cart": {
+      "title": "Your cart",
+      "empty": "Your cart is empty",
+      "empty_message": "Add products to get started",
+      "continue_shopping": "Continue shopping",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping": "Taxes and shipping calculated at checkout",
+      "checkout": "Check out",
+      "proceed_to_checkout": "Proceed to checkout",
+      "remove": "Remove",
+      "total": "Total",
+      "cart_error": "There was an error updating your cart. Please try again.",
+      "cart_quantity_error_html": "You can only add [quantity] of this item to your cart.",
+      "update": "Update",
+      "note": "Order special instructions"
+    },
+    "featured_collection": {
+      "view_all": "View all",
+      "title": "Featured products",
+      "description": "Premium selection of our best products"
+    },
+    "slideshow": {
+      "pause_slideshow": "Pause slideshow",
+      "play_slideshow": "Play slideshow"
+    },
+    "hero": {
+      "discover": "Discover the",
+      "future": "future",
+      "of_style": "of style",
+      "description": "Premium technology, exceptional design. Find the most innovative products in one place.",
+      "explore_products": "Explore products",
+      "view_collections": "View collections"
+    },
+    "categories": {
+      "title": "Explore our collections",
+      "description": "Find exactly what you're looking for",
+      "technology": "Technology",
+      "technology_desc": "The most innovative gadgets",
+      "fashion": "Fashion",
+      "fashion_desc": "Premium style and elegance",
+      "accessories": "Accessories",
+      "accessories_desc": "The perfect finishing touch"
+    },
+    "footer": {
+      "description": "Your premium destination for high-quality technology, fashion and accessories. Exceptional design accessible to everyone.",
+      "shop": "Shop",
+      "help": "Help",
+      "technology": "Technology",
+      "fashion": "Fashion",
+      "accessories": "Accessories",
+      "new_products": "New products",
+      "help_center": "Help center",
+      "shipping": "Shipping & delivery",
+      "returns": "Returns",
+      "contact": "Contact",
+      "all_rights_reserved": "All rights reserved"
+    },
+    "product_page": {
+      "features_title": "Featured characteristics",
+      "free_shipping": "Free shipping on orders over $500",
+      "premium_quality": "Premium quality guarantee",
+      "free_returns": "Free returns within 30 days",
+      "support_247": "24/7 customer support",
+      "variant": "Variant",
+      "quantity": "Quantity"
+    },
+    "collection_template": {
+      "title": "Collection",
+      "empty": "No products found",
+      "use_fewer_filters": "Use fewer filters or remove all",
+      "products_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    },
+    "main_collection_banner": {
+      "name": "Collection Banner",
+      "settings": {
+        "show_collection_description": {
+          "label": "Show collection description"
+        },
+        "show_collection_image": {
+          "label": "Show collection image"
+        },
+        "color_scheme": {
+          "label": "Color scheme",
+          "options__1": {
+            "label": "Accent 1"
+          },
+          "options__2": {
+            "label": "Accent 2"
+          },
+          "options__3": {
+            "label": "Background 1"
+          },
+          "options__4": {
+            "label": "Background 2"
+          }
+        }
+      }
+    },
+    "main_collection_product_grid": {
+      "name": "Product Grid",
+      "settings": {
+        "products_per_page": {
+          "label": "Products per page"
+        },
+        "columns_desktop": {
+          "label": "Number of columns on desktop"
+        },
+        "image_ratio": {
+          "label": "Image ratio",
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Portrait"
+          },
+          "options__3": {
+            "label": "Square"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Show second image on hover"
+        },
+        "show_vendor": {
+          "label": "Show vendor"
+        },
+        "show_rating": {
+          "label": "Show product rating"
+        },
+        "enable_filtering": {
+          "label": "Enable filtering"
+        },
+        "enable_sorting": {
+          "label": "Enable sorting"
+        },
+        "columns_mobile": {
+          "label": "Number of columns on mobile",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
+        }
+      }
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "Cart"
+    },
+    "collection": {
+      "products": "Products",
+      "empty": "No products found",
+      "use_fewer_filters": "Use fewer filters or remove all",
+      "product_count": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    }
+  },
+  "collections": {
+    "sorting": {
+      "title": "Sort by",
+      "featured": "Featured",
+      "best_selling": "Best selling",
+      "az": "Alphabetically, A-Z",
+      "za": "Alphabetically, Z-A",
+      "price_ascending": "Price, low to high",
+      "price_descending": "Price, high to low",
+      "date_ascending": "Date, old to new",
+      "date_descending": "Date, new to old"
+    },
+    "filtering": {
+      "title": "Filter",
+      "clear_all": "Clear all"
+    }
+  },
+  "accessibility": {
+    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "link_messages": {
+      "new_window": "Opens in a new window."
+    },
+    "close": "Close",
+    "loading": "Loading",
+    "error": "Error",
+    "previous": "Previous",
+    "next": "Next",
+    "view_product": "View {{ product_title }}",
+    "vendor": "Vendor"
+  },
+  "localization": {
+    "country_label": "Country/region",
+    "update_country": "Update country/region",
+    "language_label": "Language",
+    "update_language": "Update language"
+  },
+  "customer": {
+    "account": {
+      "title": "My Account",
+      "sign_out": "Sign out"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "sign_in": "Sign in",
+      "guest_title": "Continue as a guest",
+      "guest_continue": "Continue"
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date": "Placed on {{ date }}"
+    }
+  }
+}

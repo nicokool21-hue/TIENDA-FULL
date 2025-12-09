@@ -1,0 +1,72 @@
+{{ 'section-collection-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="collection-hero">
+  <div class="collection-hero__inner page-width">
+    {%- if collection.image -%}
+      <div class="collection-hero__image">
+        {{ collection.image | image_url: width: 1500 | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100, 1500', alt: collection.title }}
+      </div>
+    {%- endif -%}
+    
+    <div class="collection-hero__content">
+      <h1 class="collection-hero__title">{{ collection.title }}</h1>
+      
+      {%- if section.settings.show_collection_description and collection.description != blank -%}
+        <div class="collection-hero__description">
+          {{ collection.description }}
+        </div>
+      {%- endif -%}
+      
+      {%- if collection.all_products_count > 0 -%}
+        <p class="collection-hero__count">
+          {{ 'sections.collection_template.products_count' | t: count: collection.all_products_count }}
+        </p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main_collection_banner.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "t:sections.main_collection_banner.settings.show_collection_description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "default": false,
+      "label": "t:sections.main_collection_banner.settings.show_collection_image.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.main_collection_banner.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.main_collection_banner.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.main_collection_banner.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.main_collection_banner.settings.color_scheme.options__4.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.main_collection_banner.settings.color_scheme.label"
+    }
+  ],
+  "translations": true
+}
+{% endschema %}

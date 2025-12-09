@@ -1,0 +1,202 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Passer au contenu"
+    },
+    "meta": {
+      "tags": "Étiqueté \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "Page non trouvée",
+      "subtext": "Désolé, la page que vous recherchez n'existe pas."
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page {{ number }}"
+    },
+    "search": {
+      "search": "Rechercher",
+      "placeholder": "Rechercher des produits..."
+    },
+    "share": {
+      "share": "Partager",
+      "success_message": "Lien copié dans le presse-papiers"
+    },
+    "currency": {
+      "dropdown_label": "Devise"
+    },
+    "language": {
+      "dropdown_label": "Langue"
+    },
+    "continue_shopping": "Continuer vos achats",
+    "breadcrumbs": {
+      "home": "Accueil",
+      "back_to": "Retour à {{ title }}"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Ajouter au panier",
+      "sold_out": "Épuisé",
+      "unavailable": "Indisponible",
+      "quantity": "Quantité",
+      "price": {
+        "from_price_html": "À partir de {{ price }}",
+        "regular_price": "Prix régulier",
+        "sale_price": "Prix soldé"
+      },
+      "vendor": "Marque",
+      "view_details": "Voir les détails",
+      "added_to_cart": "Produit ajouté au panier",
+      "media": {
+        "image_available": "L'image {{ index }} est maintenant disponible en vue galerie"
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "menu": "Menu",
+      "search": "Rechercher",
+      "account": "Compte",
+      "cart_count": {
+        "one": "{{ count }} article",
+        "other": "{{ count }} articles"
+      }
+    },
+    "cart": {
+      "title": "Votre panier",
+      "empty": "Votre panier est vide",
+      "empty_message": "Ajoutez des produits pour commencer",
+      "continue_shopping": "Continuer vos achats",
+      "subtotal": "Sous-total",
+      "taxes_and_shipping": "Taxes et frais de port calculés à la caisse",
+      "checkout": "Commander",
+      "proceed_to_checkout": "Procéder au paiement",
+      "remove": "Retirer",
+      "total": "Total",
+      "cart_error": "Une erreur s'est produite lors de la mise à jour de votre panier. Veuillez réessayer.",
+      "cart_quantity_error_html": "Vous ne pouvez ajouter que [quantity] de cet article à votre panier.",
+      "update": "Mettre à jour",
+      "note": "Instructions spéciales pour la commande"
+    },
+    "featured_collection": {
+      "view_all": "Voir tout",
+      "title": "Produits en vedette",
+      "description": "Sélection premium de nos meilleurs produits"
+    },
+    "slideshow": {
+      "pause_slideshow": "Mettre en pause le diaporama",
+      "play_slideshow": "Lire le diaporama"
+    },
+    "hero": {
+      "discover": "Découvrez le",
+      "future": "futur",
+      "of_style": "du style",
+      "description": "Technologie premium, design exceptionnel. Trouvez les produits les plus innovants en un seul endroit.",
+      "explore_products": "Explorer les produits",
+      "view_collections": "Voir les collections"
+    },
+    "categories": {
+      "title": "Explorez nos collections",
+      "description": "Trouvez exactement ce que vous cherchez",
+      "technology": "Technologie",
+      "technology_desc": "Les gadgets les plus innovants",
+      "fashion": "Mode",
+      "fashion_desc": "Style et élégance premium",
+      "accessories": "Accessoires",
+      "accessories_desc": "La touche finale parfaite"
+    },
+    "footer": {
+      "description": "Votre destination premium pour la technologie, la mode et les accessoires de haute qualité. Un design exceptionnel accessible à tous.",
+      "shop": "Boutique",
+      "help": "Aide",
+      "technology": "Technologie",
+      "fashion": "Mode",
+      "accessories": "Accessoires",
+      "new_products": "Nouveaux produits",
+      "help_center": "Centre d'aide",
+      "shipping": "Livraison",
+      "returns": "Retours",
+      "contact": "Contact",
+      "all_rights_reserved": "Tous droits réservés"
+    },
+    "product_page": {
+      "features_title": "Caractéristiques principales",
+      "free_shipping": "Livraison gratuite pour les commandes de plus de 500 $",
+      "premium_quality": "Garantie de qualité premium",
+      "free_returns": "Retours gratuits sous 30 jours",
+      "support_247": "Support client 24/7",
+      "variant": "Variante",
+      "quantity": "Quantité"
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "Panier"
+    },
+    "collection": {
+      "products": "Produits",
+      "empty": "Aucun produit trouvé",
+      "use_fewer_filters": "Utilisez moins de filtres ou supprimez-les tous",
+      "product_count": {
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits"
+      }
+    }
+  },
+  "collections": {
+    "sorting": {
+      "title": "Trier par",
+      "featured": "En vedette",
+      "best_selling": "Meilleures ventes",
+      "az": "Alphabétiquement, A-Z",
+      "za": "Alphabétiquement, Z-A",
+      "price_ascending": "Prix, du plus bas au plus élevé",
+      "price_descending": "Prix, du plus élevé au plus bas",
+      "date_ascending": "Date, du plus ancien au plus récent",
+      "date_descending": "Date, du plus récent au plus ancien"
+    },
+    "filtering": {
+      "title": "Filtrer",
+      "clear_all": "Tout effacer"
+    }
+  },
+  "accessibility": {
+    "refresh_page": "Le choix d'une sélection entraîne une actualisation complète de la page.",
+    "link_messages": {
+      "new_window": "S'ouvre dans une nouvelle fenêtre."
+    },
+    "close": "Fermer",
+    "loading": "Chargement",
+    "error": "Erreur",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "localization": {
+    "country_label": "Pays/région",
+    "update_country": "Mettre à jour le pays/région",
+    "language_label": "Langue",
+    "update_language": "Mettre à jour la langue"
+  },
+  "customer": {
+    "account": {
+      "title": "Mon Compte",
+      "sign_out": "Se déconnecter"
+    },
+    "login": {
+      "title": "Connexion",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ?",
+      "sign_in": "Se connecter",
+      "guest_title": "Continuer en tant qu'invité",
+      "guest_continue": "Continuer"
+    },
+    "order": {
+      "title": "Commande {{ name }}",
+      "date": "Passée le {{ date }}"
+    }
+  }
+}
